@@ -1,10 +1,6 @@
 //Задание 1//
 let myName = 'Валерия';
-
-function greet(myName) {
-    alert(`Привет, ${myName}!`);
-    console.log(myName);
-}
+import {greet} from './module/myName.js'
 greet(myName);
 
 //Задание 2//
